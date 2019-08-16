@@ -4,7 +4,7 @@ body {
 }
 
 p{
-     font-family: 'Airbnb Cereal App Medium';
+     font-family: 'Airbnb Cereal App Medium', Arial, sans-serif;
      margin: 0 0 8px 0;
  }
 
@@ -13,19 +13,10 @@ p{
 
 /* BUTTON PRIMARY */
 .primary {
-    transition: 1s;
-    color: white;
-    font-size: 14px;
-    border-radius: 2px; 
-    display: inline-block;
-    text-decoration: none;
     background-color: #6059ed;
-    padding: 14px 24px 14px 24px;
-    font-family: 'Airbnb Cereal App';
 }
 
 .primary:hover { 
-    transition: 1s;
     background-color: #4e47e8;
     box-shadow: 0px 8px 20px 0px rgba(96,89,237,0.4);
     -moz-box-shadow: 0px 8px 20px 0px rgba(96,89,237,0.4);
@@ -34,22 +25,27 @@ p{
 
 /* BUTTON ERROR */
 .error {
-    transition: 1s;
-    color: white;
-    font-size: 14px;
-    border-radius: 2px; 
-    display: inline-block;
-    text-decoration: none;
     background-color: #e8475b;
-    padding: 14px 24px 14px 24px;
-    font-family: 'Airbnb Cereal App';
 }
 
 .error:hover { 
-    transition: 1s;
     background-color: #e8475b;
     -webkit-box-shadow: 0px 8px 20px 0px rgba(237,89,110,0.4);
     -moz-box-shadow: 0px 8px 20px 0px rgba(237,89,110,0.4);
     box-shadow: 0px 8px 20px 0px rgba(237,89,110,0.4);
 
+}
+/* GENERAL PROPERTIES FOR BUTTON */
+.primary, .error{
+    display: inline-block;
+    padding: 14px 24px 14px 24px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 2px;
+    color: white;
+}
+/* GENERAL TRANSITION */
+.primary:hover, error:hover{
+    transition: 1s;
 }
