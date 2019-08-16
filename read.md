@@ -24,4 +24,4 @@ Last Update: *16 August 2019
    **Active** ; #eed77c
    **Hover**  ; #eed77c + Multiply 30% or #e9cd69
 
-5 **Disabled**; #6a3de
+5. **Disabled**; #6a3de
